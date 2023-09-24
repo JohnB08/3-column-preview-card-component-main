@@ -8,6 +8,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* container */
+
 body {
   height: 100vh;
   width: 100vw;
@@ -45,6 +48,9 @@ main {
   padding: 15%;
   gap: 2.5em;
 }
+
+/* text */
+
 .container h1 {
   font-size: 2.5em;
   font-family: "Big Shoulders Display", cursive;
@@ -58,6 +64,9 @@ main {
 .container img {
   width: 4em;
 }
+
+/* buttons */
+
 .btn {
   margin-top: 3em;
   display: block;
@@ -93,6 +102,9 @@ main {
   color: hsl(0, 0%, 95%);
   background: var(--bg3);
 }
+
+/* media queries */
+
 @media only screen and (max-width: 910px) {
   body {
     height: 100%;
